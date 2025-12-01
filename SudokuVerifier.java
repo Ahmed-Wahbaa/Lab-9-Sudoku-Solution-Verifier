@@ -3,6 +3,7 @@ package lab.pkg9;
 import java.util.*;
 import java.io.*;
 
+//the main program 
 public class SudokuVerifier {
 
     private static final int N = 9; // the Sudoku board size
