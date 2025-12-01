@@ -4,6 +4,7 @@ import java.io.*;
 
 public class BoardLoader {
 
+   // Load a 9x9 Sudoku board from CSV file
     public static int[][] loadCsv(String path) throws Exception {
         int[][] board = new int[9][9];
         BufferedReader br = new BufferedReader(new FileReader(path));
